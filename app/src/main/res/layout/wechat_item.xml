@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/wechat_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_drawer_about"/>
+
+
+       <TextView
+           android:id="@+id/wechat_title"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:maxLines="3"
+           android:layout_toRightOf="@+id/wechat_img"
+           android:textSize="23dp"
+           android:text="123"/>
+
+
+        <TextView
+            android:id="@+id/wechat_name"
+            android:layout_below="@+id/wechat_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/wechat_img"
+            android:layout_marginTop="30dp"
+            android:textSize="13dp"
+            android:text="123"/>
+
+
+
+        <TextView
+            android:id="@+id/wechat_pppp"
+            android:layout_below="@+id/wechat_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:textSize="13dp"
+            android:text="123"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</android.support.v7.widget.CardView>
